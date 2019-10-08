@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>WineShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="img/favicon/download.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+
+
+    </style>
+</head>
+
+<body>
+    <header class="pb-5">
+
+        <div class="overlay2"></div>
+        <div class="right3">
+            <div class="finestra2">
+                <input type="text" placeholder="Search..">
+            </div>
+        </div>
+
+
+        <div class="topnav">
+            <a href="index.html" class="text-white ml-3 text-dark"><span>W</span>ine<span>S</span>hop</a>
+            <a href="index.html" class="border-button"> <img src="img/icone/store-solid.svg" alt=""></a>
+            <a href="carrello.html" class="border-button"><img src="img/icone/shopping-cart-solid.svg" alt=""></a>
+            <a class="border-button apri">
+                <img src="img/icone/address-book-regular.svg" alt="">
+            </a>
+            <a class="border-button apri2  mr-2"><img src="img/icone/search-solid%20(1).svg" alt=""></a>
+
+
+        </div>
+
+
+        <div id="vizprodotto">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3  col-md-6 right2">
+
+                        <img src="img/product-wine.png" class="border mr-3 mt-2 mb-2" alt="">
+                        <p>Stai visualizzando: <span>Cannonau Mamuthone 2016</span>
+                            <span class="prezzo2">€ 18,99</span></p>
+                    </div>
+
+                    <div class="col-md-6 col-sm-3 right"><button class="btn-dark">Aggiungi al carello</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ELEMENTI PER MODALE-->
+        <div class="overlay"></div>
+
+        <div class="right3">
+            <div class="finestra">
+                <div class="close col-md-12">
+                    <a href="#"><i class="far fa-times-circle"></i></a>
+                </div>
+                <h3>Contattaci</h3>
+                <div class="form-group input-group">
+                    <div class="col-md-4">
+                        <h5 class="text-dark">Nome</h5>
+                    </div>
+                    <div class="col-md-8">
+                        <input name="" class="form-control" placeholder="nome" type="text">
+                    </div> <!-- form-group// -->
+                </div>
+                <div class="form-group input-group">
+                    <div class="col-md-4">
+                        <h5 class="text-dark">Email Adress</h5>
+                    </div>
+                    <div class="col-md-8">
+
+                        <input name="" class="form-control" placeholder="example@mail.com" type="text">
+                    </div> <!-- form-group// -->
+                </div>
+
+                <div class="form-group input-group">
+                    <div class="col-md-4">
+                        <h5 class="text-dark">Soggetto</h5>
+                    </div>
+                    <div class="col-md-8">
+                        <input name="" class="form-control" placeholder="ciao" type="email">
+                    </div> <!-- form-group// -->
+                </div>
+                <div class="form-group input-group">
+                    <div class="col-md-4">
+                        <h5 class="text-dark">Messaggio</h5>
+                    </div>
+                    <div class="col-md-8">
+                        <textarea class="form-control" type="text" name="textbox"></textarea>
+                    </div> <!-- form-group// -->
+                </div>
+                <div class="form-group input-group end col-md-12">
+                    <p class="btn-danger">Invia</p>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <main class="container-single">
+
+        <div class="card-deck single pt-5">
+            <div class="col-xl-10 col-md-9">
+                <div class="row">
+                    <div class="col-md-3 right3"><img class="card-img-top" src="img/white/448-bianco-girlan-2018_white.jpg" alt="Card image cap">
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="card border-white pr-5">
+
+                            <div class="card-body">
+                                <h3 class="card-title">Traminer Aromatico Vitas 2018</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores asperiores, distinctio, voluptatum ex laboriosam totam ad exercitationem eligendi dolore quae reiciendis obcaecati mollitia praesentium, consequatur voluptate delectus veniam perspiciatis enim!</p>
+                                <hr>
+                                <p>Disponibilità</p>
+                                <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                                <p class="card-text mt-4">Qtà: <span class="border"> 1</span></p>
+                            </div>
+                            <div id="viz" class="card-footer">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-5">
+
+
+                    <div class="card border-white pr-5">
+
+
+                        <div class="card-body col-md-8">
+                            <h3 class="card-title pb-4">Descrizione prodotto</h3>
+                            <hr>
+                            <div class="carello">
+                                <p>Produttore</p>
+                                <p>Rizieri</p>
+                            </div>
+                            <hr>
+                            <div class="carello">
+                                <p>Bio</p>
+                                <p>No</p>
+                            </div>
+                            <hr>
+                            <div class="carello">
+                                <p>Tipo</p>
+                                <p>Rossi</p>
+                            </div>
+                            <hr>
+                            <div class="carello">
+                                <p>Regione</p>
+                                <p>Piemonte</p>
+                            </div>
+                            <hr>
+                            <div class="carello">
+                                <p>Zona</p>
+                                <p>Langhe</p>
+                            </div>
+                            <hr>
+                            <div class="carello">
+                                <p>Denominazione-Vitigno</p>
+                                <p>Barbera d'Alba D.O.C</p>
+                            </div>
+                            <hr>
+                            <div class="carello">
+                                <p>Uvaggio</p>
+                                <p>Barbera 100%</p>
+                            </div>
+                            <hr>
+                            <div class="carello">
+                                <p>Annata</p>
+                                <p>2014</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-xl-2 col-md-3 col">
+
+                <h4>Potrebbe interessarti anche</h4>
+                <div class="scrolling-wrapper">
+
+                    <div class="card1">
+                        <div class="card-body border corner-color">
+                            <img class="card-img-top" src="img/product-wine.png" alt="Card image cap">
+                            <h6 class="card-title">Traminer Aromatico Vitas 2018</h6>
+
+
+                            <p class="card-text"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span>
+                                <i class="fas fa-shopping-cart"> </i></p>
+                            <p class="card-text">Qtà: <span class="border"> 1</span></p>
+
+                        </div>
+                    </div>
+                    <div class="card1 mt-4">
+                        <div class="card-body border corner-color">
+                            <img class="card-img-top" src="img/product-wine.png" alt="Card image cap">
+                            <h6 class="card-title">Traminer Aromatico Vitas 2018</h6>
+
+
+                            <p class="card-text"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span>
+                                <i class="fas fa-shopping-cart"> </i></p>
+                            <p class="card-text">Qtà: <span class="border"> 1</span></p>
+
+                        </div>
+                    </div>
+                    <div class="card1 mt-4">
+                        <div class="card-body border corner-color">
+                            <img class="card-img-top" src="img/product-wine.png" alt="Card image cap">
+                            <h6 class="card-title">Traminer Aromatico Vitas 2018</h6>
+
+
+                            <p class="card-text"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span>
+                                <i class="fas fa-shopping-cart"> </i></p>
+                            <p class="card-text">Qtà: <span class="border"> 1</span></p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </main>
+    <section id="screen3">
+        <footer>
+            <div class="container-fluid pt-4">
+
+                <div class="row  text-center  pt-5 pb-4">
+                    <div class="col-md-4 col-sm-6  mobile-margin">
+                        <h6>Contattaci</h6>
+                        <p>Come possiamo aiutarti?</p>
+
+                        <h2 class="btn btn-dark"><a class="text-white" href="mailto:cossminuu@gmail.com"> EMAIL US </a></h2>
+
+                    </div>
+
+
+
+                    <div class="col-md-4 col-sm-6 mobile-margin">
+                        <h6>Seguici sui Social</h6>
+                        <p>Connect with us.</p>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter "></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square "></i></a>
+
+
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <h6>Newsletter</h6>
+                        <p>Resta sempre aggiornato.Non farti
+                            scappare le ultime novità</p>
+                        <i class="far fa-envelope pb-5"></i>
+
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+
+
+
+
+
+    <!-- ====================================================================SCRIPT MODALE CONTACT FORM  ============================================================= -->
+    <script src="js/modale.js"></script>
+    <!-- ====================================================================SCRIPT MODALE CONTACT FORM  ============================================================= -->
+
+
+    <!-- ====================================================================SCRIPT MODALE SEARCH FORM  ============================================================= -->
+    <script src="js/modalesearch.js"></script>
+    <!-- ====================================================================SCRIPT MODALE CONTACT FORM  ============================================================= -->
+
+
+
+
+
+    <!-- ====================================================================SCRIPT VIZ PRODOTTO  ============================================================= -->
+    <script>
+        //Waypoints intercetta i passaggi di elementi in scrolling
+        $("#viz").waypoint(function() {
+
+            $("#vizprodotto").toggleClass("visibile");
+        });
+    </script>
+    <!-- ====================================================================SCRIPT VIZ PRODOTTO  ============================================================= -->
+
+</body>
+</html>

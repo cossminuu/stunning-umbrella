@@ -1,0 +1,685 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wine Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="img/favicon/download.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+
+
+
+    </style>
+</head>
+
+
+<body>
+    <section id="screen1">
+        <div class="overlay2"></div>
+        <div class="right3">
+            <div class="finestra2">
+                <input type="text" placeholder="Search..">
+            </div>
+        </div>
+
+
+        <div class="topnav">
+            <a href="index.html" class="text-white ml-3 text-dark"><span>W</span>ine<span>S</span>hop</a>
+            <a href="index.html" class="border-button active"> <img src="img/icone/store-solid.svg" alt=""></a>
+            <a href="carrello.html" class="border-button"><img src="img/icone/shopping-cart-solid.svg" alt=""></a>
+            <a class="apri border-button">
+            <img src="img/icone/address-book-regular.svg" alt="">
+            </a>
+            <a class="apri2 border-button mr-2"><img src="img/icone/search-solid%20(1).svg" alt=""></a>
+
+
+        </div>
+
+
+        <!--   ELEMENTI PER MODALE-->
+        <div class="overlay"></div>
+
+        <div class="right3">
+            <div class="finestra">
+                <div class="close col-md-12">
+                    <a href="#"><i class="far fa-times-circle"></i></a>
+                </div>
+                <h3>Contattaci</h3>
+                <div class="form-group input-group">
+                    <div class="col-md-4">
+                        <h5 class="text-dark">Nome</h5>
+                    </div>
+                    <div class="col-md-8">
+                        <input name="" class="form-control" placeholder="nome" type="text">
+                    </div> <!-- form-group// -->
+                </div>
+                <div class="form-group input-group">
+                    <div class="col-md-4">
+                        <h5 class="text-dark">Email Adress</h5>
+                    </div>
+                    <div class="col-md-8">
+
+                        <input name="" class="form-control" placeholder="example@mail.com" type="text">
+                    </div> <!-- form-group// -->
+                </div>
+
+                <div class="form-group input-group">
+                    <div class="col-md-4">
+                        <h5 class="text-dark">Soggetto</h5>
+                    </div>
+                    <div class="col-md-8">
+                        <input name="" class="form-control" placeholder="ciao" type="email">
+                    </div> <!-- form-group// -->
+                </div>
+                <div class="form-group input-group">
+                    <div class="col-md-4">
+                        <h5 class="text-dark">Messaggio</h5>
+                    </div>
+                    <div class="col-md-8">
+                        <textarea class="form-control" type="text" name="textbox"></textarea>
+                    </div> <!-- form-group// -->
+                </div>
+                <div class="form-group input-group end col-md-12">
+                    <p class="btn-danger">Invia</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <div id="ship" class="container-fluid">
+        <div class="color">
+            <div class="row right4 pb-4">
+                <div class="right3">
+                    <i class="fas fa-truck pr-2 mt-4"></i>
+                    <a href="" class="mt-4">SPEDIZIONE GRATUITA</a>
+                </div>
+
+
+                <div class="right3">
+                    <i class="far fa-credit-card pr-2 mt-4"></i>
+                    <a href="" class="mt-4">PAGAMENTI SICURI</a>
+                </div>
+
+
+                <div class="right3">
+                    <i class="fas fa-user-check pr-2 mt-4"></i>
+                    <a href="" class="mt-4">100% GARANTITO WINESHOP</a>
+                </div>
+
+
+
+            </div>
+            <hr>
+
+            <div class="row right3">
+                <a href="#go" class="ancora pt-3 pb-2" id="champagne">
+                    <div class="col-xl-3  col-6 "><img src="img/banner/1x/champagne-100.jpg" alt=""></div>
+                </a>
+                <a href="#go" class="ancora pt-3 pb-2" id="white">
+                    <div class="col-xl-3  col-6 "><img src="img/banner/1x/bianco-100.jpg" alt=""></div>
+                </a>
+                <a href="#go" class="ancora pt-3 pb-2" id="red">
+                    <div class="col-xl-3 col-6"><img src="img/banner/1x/rosso-100.jpg" alt=""></div>
+                </a>
+                <a href="#go" class="ancora pt-3 pb-2" id="all">
+                    <div class="col-xl-3  col-6"><img src="img/banner/1x/tutti-100.jpg" alt=""></div>
+                </a>
+
+
+
+            </div>
+
+
+        </div>
+        <!--        PER SCROLL TO-->
+        <div id="go"></div>
+
+        <!--        PER SCROLL TO-->
+    </div>
+    <section id="screen2">
+
+        <main>
+            <div class="container">
+
+                <div class="text-center pt-5 mb-5">
+                    <h2>Prodotti</h2>
+                    <hr>
+                </div>
+
+
+
+
+                <div class="row ">
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 red right3">
+                        <a href="single-page.html">
+                            <img class="card-img-top" src="img/red/bruciato-guado-al-tasso-antinori-2017_red.jpg" alt="Card image cap">
+                        </a>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+
+                            <div class="card-footer right3">
+
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 red right3">
+                        <a href="single-page.html">
+                            <img class="card-img-top" src="img/red/cannonau-mamuthone-sedilesu-2016_red.jpg" alt="Card image cap">
+                        </a>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card col-xl-3 col-md-4 col-sm-6  border-white pr-5 red right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/red/cannonau-sartiu-sedilesu-2017_red.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card col-xl-3 col-md-4 col-sm-6  border-white pr-5 red right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/red/chianti-borgo-salcetino-2016_red.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 red right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/red/dolcetto-dogliani-vigna-tecc-einaudi-2017_red.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 red right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/red/primitivo-lirica-produttori-di-manduria-2016_red.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 red right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/red/nebbiolo-giovanni-rosso-2016_red.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 red right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/red/primitivo-lirica-produttori-di-manduria-2016_red.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 red right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/red/valpolicella-ripasso-tommasi-2016_red.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 red right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/red/chianti-borgo-salcetino-2016_red.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 white right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/white/448-bianco-girlan-2018_white.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 white right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/white/chardonnay-saleit-cantina-caldaro-2017_white.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 white right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/white/custoza-amedeo-cavalchina-2017_white.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 white right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/white/falanghina-janare-senete-la-guardiense-2018_white.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 white right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/white/gewurztraminer-hofstatter-2018_white.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 white right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/white/lugana-frati-ca-dei-frati-2018_white.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 white right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/white/lugana-villabella-2017_white.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 white right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/white/maria-costanza-bianco-milazzo-2018_white.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 white right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/white/sancerre-origine-roblin-2017_white.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 white right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/white/soave-monte-carbonare-suavia-2017_white.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 champagne right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/champagne/champagne-brut-empreinte-de-terroir-collet_11796_list.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 champagne right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/champagne/champagne-brut-nature-larnaudie-hirault_11827_list.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 champagne right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/champagne/champagne-grand-cru-blanc-de-blancs-robert-moncuit_9408_list.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 champagne right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/champagne/champagne-moncuit-delos_6507_list.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 champagne right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/champagne/champagne-reserve-orban_14973_list.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 champagne right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/champagne/champagne-reserve-polisy-andre-beaufort_6566_list.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Traminer Aromatico Vitas 2018</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 champagne right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/champagne/champagne-rose-grand-vintage-moet-chandon-2006_15068_list.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Rose Grand Vintage Moet Chandon</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 champagne right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/champagne/champagne-rose-royale-reserve-philipponnat_6694_list.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Royale Reserve Philipponnat</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 champagne right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/champagne/champagne-rose-zero-tarlant_6691_list.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Rose Zero Tarlant 2019</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-xl-3 col-md-4 col-sm-6 border-white pr-5 champagne right3">
+                        <a href="single-page.html"> <img class="card-img-top" src="img/champagne/champagne-royale-reserve-philipponnat_6439_list.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Royale Reserve Philipponnat</h5>
+                            <p class="card-text mt-4"><span class="prezzo">€ 18,99</span> <span class="prezzo2">€ 18,99</span></p>
+                            <p class="card-text mt-4">Qtà: - <span class="border"> 1</span> +</p>
+                            <div class="card-footer right3">
+                                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"> </i>
+                                    Aggiungi al carrello </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+        </main>
+    </section>
+    <section id="screen3">
+        <footer>
+            <div class="container-fluid pt-4 ">
+
+                <!--  Content Area-->
+                <div class="row  text-center  pt-5 pb-4">
+                    <div class="col-md-4 col-sm-6  mobile-margin">
+                        <h6>Contattaci</h6>
+                        <p>Come possiamo aiutarti?</p>
+
+                        <h2 class="btn btn-dark"><a class="text-white" href="mailto:cossminuu@gmail.com"> EMAIL US </a></h2>
+
+                    </div>
+
+
+
+                    <div class="col-md-4 col-sm-6 mobile-margin">
+                        <h6>Seguici sui Social</h6>
+                        <p>Connect with us.</p>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter "></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square "></i></a>
+
+
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <h6>Newsletter</h6>
+                        <p>Resta sempre aggiornato.Non farti
+                            scappare le ultime novità</p>
+                        <i class="far fa-envelope pb-5"></i>
+
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery.scrollto/jquery.scrollTo.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+    <!-- ====================================================================filtro prodotti ============================================================= -->
+    <script src="js/filtro.js"></script>
+    <!-- ====================================================================filtro prodotti ============================================================= -->
+
+
+
+
+
+
+
+
+    <!-- ====================================================================SCRIPT MODALE CONTACT FORM  ============================================================= -->
+    <script src="js/modale.js"></script>
+    <!-- ====================================================================SCRIPT MODALE CONTACT FORM  ============================================================= -->
+
+    <!-- ====================================================================SCRIPT MODALE SEARCH FORM  ============================================================= -->
+    <script src="js/modalesearch.js"></script>
+    <!-- ====================================================================SCRIPT MODALE CONTACT FORM  ============================================================= -->
+
+
+
+
+    <!-- ====================================================================SCRIPT SCROLL TO  ============================================================= -->
+    <script src="js/scrollto.js"></script>
+    <!-- ====================================================================SCRIPT SCROLL TO ============================================================= -->
+
+
+
+
+
+</body>
+
+</html>
